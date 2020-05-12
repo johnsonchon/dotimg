@@ -461,6 +461,11 @@ footer {
 
     input {
         padding-left: 15px;
+        margin: 0 10px;
+    }
+
+    ::placeholder {
+        background: none;
     }
 
     .ig, .github {
@@ -468,12 +473,17 @@ footer {
         height: 24px;
     }
 
+    .github {
+        margin-left: 5px;
+    }
+
     .hero-section {
         margin-top: 50px;
+        padding: 0 20px;
     }
 
     .hero-top {
-        width: 350px;
+        width: 100%;
         margin-top: 50px;
     }
 
@@ -482,12 +492,12 @@ footer {
     }
 
     .hero-right > img {
-        width: 310px;
+        width: 250px;
         height: 228px;
     }
 
     .hero-bottom > img {
-        width: 60px;
+        width: 75px;
         margin: 0 10px;
     }
 
@@ -508,6 +518,10 @@ footer {
         flex-direction: column;
     }
 
+    .footer-logo {
+        margin-bottom: 15px;
+    }
+
     .right-footer {
         flex-direction: column;
         margin-left: 0;
@@ -516,7 +530,7 @@ footer {
 
     .right-footer > a {
         margin-left: 0;
-        padding-bottom: 5px ;
+        padding-bottom: 15px ;
     }
 
     .foot-p {
