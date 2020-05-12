@@ -1,30 +1,44 @@
 const nav = document.querySelector('.nav')
-window.onscroll = () => {
-    const top = window.scrollY
-    if (top >= 100) {
-        nav.classList.add('nav-shadow')
-    } else {
-        nav.classList.remove('nav-shadow')
-    }
-}
-
-// up arrow
 const up = document.querySelector('.up');
 
 window.onscroll = () => {
-    const top = window.scrollY
-    if (top >= 900) {
-        up.classList.remove('up-none')
-    } else {
-        up.classList.add('up-none')
+    function navShadow() {
+        const top = window.scrollY
+        if (top >= 100) {
+            nav.classList.add('nav-shadow')
+        } else {
+            nav.classList.remove('nav-shadow')
+        }
     }
+
+    function upArrow() {
+        const top = window.scrollY
+        if (top >= 900) {
+            up.classList.remove('up-none')
+        } else {
+            up.classList.add('up-none')
+        }
+    }
+
+    navShadow();
+    upArrow();
 }
 
-up.addEventListener('click', function() {
+
+// window.onscroll = () => {
+//     const top = window.scrollY
+//     if (top >= 900) {
+//         up.classList.remove('up-none')
+//     } else {
+//         up.classList.add('up-none')
+//     }
+// }
+
+up.addEventListener('click', function () {
     window.scroll({
         top: 350,
-        behavior: 'smooth' 
-      });
+        behavior: 'smooth'
+    });
 })
 
 // Search
