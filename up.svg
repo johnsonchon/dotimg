@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="106px" height="106px" viewBox="0 0 106 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 11</title>
+    <defs>
+        <path d="M37,0 C57.4355625,0 74,16.5644375 74,37 C74,57.43325 57.4355625,74 37,74 C16.5644375,74 0,57.43325 0,37 C0,16.5644375 16.5644375,0 37,0 Z" id="path-1"></path>
+        <filter x="-31.8%" y="-31.8%" width="166.2%" height="166.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.52955163   0 0 0 0 0.52955163   0 0 0 0 0.52955163  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-11" transform="translate(15.000000, 15.000000)">
+            <g id="Group-10">
+                <g id="Combined-Shape">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <polygon id="Shape" fill="#EFEFEF" points="24.76 46.705 37 34.3433266 49.24 46.705 53 42.899332 37 26.705 21 42.899332"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
